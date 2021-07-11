@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentA"
+    android:orientation="horizontal"
+    android:background="@drawable/fragment1">
+<ImageView
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="9dp"
+    android:background="@drawable/circle_filled"/>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_blank"/>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_blank"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<ImageView
+    android:layout_marginTop="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:src="@drawable/safety"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Safety Tips"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Be aware of your surroundings. ... "
+            android:paddingLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Please trust and make good use of your 'gut feel' or 'intuition' or 'sixth sense' in each and every place and situation. ... "
+            android:paddingLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Don't take eve teasing lightly. ... "
+            android:paddingLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. As much as possible avoid late night
+             travel using public transport."
+            android:paddingLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+</FrameLayout>

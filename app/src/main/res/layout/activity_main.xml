@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/splash"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp">
+        <ImageView
+            android:id="@+id/women"
+            android:layout_marginTop="130dp"
+            android:layout_width="180dp"
+            android:layout_height="190dp"
+            android:background="@drawable/businesswoman"
+            android:layout_centerHorizontal="true"
+            />
+        <ImageView
+            android:id="@+id/sheilds"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shield"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="290dp"
+
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Women Safety"
+        android:textAlignment="center"
+        android:textSize="35dp"
+
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our first priority"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:textStyle="italic"/>
+    <com.agrawalsuneet.dotsloader.loaders.AllianceLoader
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:alliance_animDuration="500"
+        app:alliance_distanceMultiplier="4"
+        app:alliance_dotsRadius="6dp"
+        app:alliance_drawOnlyStroke="true"
+        app:alliance_firstDotsColor="#FFDF00"
+        app:alliance_secondDotsColor="#45F604"
+        app:alliance_strokeWidth="2dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        app:alliance_thirdDotsColor="#FB0015" />
+
+
+</LinearLayout>

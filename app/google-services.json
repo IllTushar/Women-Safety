@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "27500270203",
+    "firebase_url": "https://saftyapplication-default-rtdb.firebaseio.com",
+    "project_id": "saftyapplication",
+    "storage_bucket": "saftyapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27500270203:android:1bace17b05da5f8107c8de",
+        "android_client_info": {
+          "package_name": "com.women.saftyapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27500270203-1b6hs75ojgg048en97bn41miai82qt0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdZhRRL9FwvcjszDZWT44oeSDxs8KKXqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27500270203-1b6hs75ojgg048en97bn41miai82qt0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

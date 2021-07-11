@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentB"
+    android:background="@drawable/fragment2">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="9dp"
+        android:background="@drawable/circle_blank"/>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_filled"/>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_blank"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+    android:layout_marginTop="30dp"
+     android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:src="@drawable/businesswoman"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:text="Self defence Tips"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:text="1. Hammer strike. Using your car keys is one of the easiest ways to defend yourself. ... "/>
+
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:text="2. Groin kick. ... "/>
+
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:text="3. Alternative elbow strikes. ."/>
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:text="4. Escape from side headlock."/>
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:text="5. Escape from a 'bear hug attack' ... "/>
+
+    </LinearLayout>
+</FrameLayout>

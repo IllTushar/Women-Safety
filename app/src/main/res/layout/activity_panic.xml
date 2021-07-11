@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Panic"
+    android:background="@drawable/colorpanic"
+    android:orientation="vertical">
+<ImageView
+    android:id="@+id/helplineimg"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/care"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Helpline"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:outlineSpotShadowColor="@color/black"/>
+    <com.agrawalsuneet.dotsloader.loaders.CircularDotsLoader
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        app:loader_animDur="100"
+        android:layout_marginTop="10dp"
+        android:visibility="visible"
+        app:loader_bigCircleRadius="16dp"
+        android:layout_gravity="center"
+        app:loader_circleRadius="5dp"
+        app:loader_defaultColor="#FFBB86FC"
+        app:loader_firstShadowColor="#FF1249"
+        app:loader_secondShadowColor="#feac5e"
+        app:loader_selectedColor="#4bc0c8"
+        app:loader_showRunningShadow="true" />
+
+    <EditText
+        android:id="@+id/allindia"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:layout_width="match_parent"
+        android:paddingLeft="5dp"
+        android:layout_height="40dp"
+        android:hint="All India Helpline"
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <Button
+        android:id="@+id/callallindia"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:text="CALL"
+        android:textSize="17dp"
+        android:background="@drawable/btnround"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="14dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/helplines"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingTop="15dp"
+        android:text="Some Other Helpline no:-\n
+WomenCommision: 18001805220\n
+Up Women Helplineno: 1090"
+        android:paddingBottom="4dp"
+        android:textSize="16dp"/>
+</LinearLayout>

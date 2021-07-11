@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Police"
+    android:orientation="vertical"
+    android:background="@drawable/colorpolice">
+<ImageView
+    android:id="@+id/policeman"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:src="@drawable/police"
+    android:layout_marginTop="20dp"/>
+    <com.agrawalsuneet.dotsloader.loaders.CircularDotsLoader
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        app:loader_animDur="100"
+        android:layout_marginTop="10dp"
+        android:visibility="visible"
+        app:loader_bigCircleRadius="16dp"
+        android:layout_gravity="center"
+        app:loader_circleRadius="5dp"
+        app:loader_defaultColor="#FFBB86FC"
+        app:loader_firstShadowColor="#F60606"
+        app:loader_secondShadowColor="#FFF317"
+        app:loader_selectedColor="#0720F4"
+        app:loader_showRunningShadow="true" />
+    <TextView
+        android:id="@+id/police"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Police"
+        android:textColor="#1465E3"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_local_police_24"/>
+    <EditText
+        android:id="@+id/policnumber"
+        android:elevation="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+        android:hint=" Police Number"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/round"/>
+    <Button
+        android:id="@+id/call"
+        android:text="call"
+        android:elevation="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:background="@drawable/btnround"/>
+</LinearLayout>

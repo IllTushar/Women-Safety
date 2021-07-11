@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Message"
+    android:orientation="vertical"
+    android:background="@drawable/messagecolor">
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="150dp"
+    android:src="@drawable/message"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Messages"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textColor="#0EC3BD"/>
+    <EditText
+        android:id="@+id/phone"
+        android:elevation="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+        android:hint=" Phone"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/round"/>
+    <EditText
+        android:id="@+id/entertext"
+        android:elevation="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:paddingLeft="10dp"
+        android:hint="Enter Text"
+        android:paddingBottom="90dp"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/messageround"
+        />
+
+    <Button
+    android:id="@+id/sendmessage"
+    android:text="Send Message"
+    android:elevation="4dp"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_marginRight="40dp"
+    android:layout_marginLeft="40dp"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:textSize="17dp"
+        android:onClick="btnsend"
+    android:background="@drawable/btnround"/>
+</LinearLayout>
